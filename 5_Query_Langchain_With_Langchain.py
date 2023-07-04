@@ -1,10 +1,3 @@
-# Add history
-
-# C Retrieval chain
-
-
-
-
 import os
 from dotenv import load_dotenv
 load_dotenv(".env")
@@ -33,7 +26,6 @@ except:
     for dirpath, dirnames, filenames in os.walk(root_dir):
         print(dirnames)
         for file in filenames:
-            # if file.endswith(".js") or file.endswith(".css") or file.endswith(".ts") or file.endswith(".tsx") or file.endswith(".jsx"):
             if file.endswith(".py"):
                 try:
                     loader = TextLoader(os.path.join(dirpath, file), encoding="utf-8")

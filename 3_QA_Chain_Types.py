@@ -1,8 +1,3 @@
-# Longer text example, with stuff, fails, then show following example
-# map_reduce
-
-
-# Simple stuff chain with short text
 from dotenv import load_dotenv
 load_dotenv(".env")
 

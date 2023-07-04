@@ -1,7 +1,3 @@
-# Simple example of chain 
-# For example, we can create a chain that takes user input, formats it with a PromptTemplate, and then passes the formatted response to an LLM.
-
-
 from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain

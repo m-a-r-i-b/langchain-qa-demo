@@ -1,4 +1,3 @@
-# Simple stuff chain with short text
 from dotenv import load_dotenv
 load_dotenv(".env")
 
