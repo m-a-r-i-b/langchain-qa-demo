@@ -6,7 +6,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.document_loaders import PyPDFLoader
 
 
-loader = PyPDFLoader("./assets/qc-book.pdf")
+loader = PyPDFLoader("./docs/qc-book.pdf")
 documents = loader.load()
 llm = OpenAI()
 

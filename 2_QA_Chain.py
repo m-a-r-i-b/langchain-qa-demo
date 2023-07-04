@@ -6,7 +6,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.document_loaders import PyPDFLoader
 
 
-loader = PyPDFLoader("./assets/quantum_computing.pdf")
+loader = PyPDFLoader("./docs/quantum_computing.pdf")
 documents = loader.load()
 
 print(len(documents))

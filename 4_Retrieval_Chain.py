@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv(".env")
 
 
-loader = PyPDFLoader("./assets/qc-book.pdf")
+loader = PyPDFLoader("./docs/qc-book.pdf")
 documents = loader.load()
 
 text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
