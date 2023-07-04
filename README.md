@@ -1,0 +1,1 @@
+This repo contains code samples explaining chains in LangChain. Specifically, it includes code samples for Stuff, Map_reduce and Retrieval_qa chains.
